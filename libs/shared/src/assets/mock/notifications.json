@@ -1,0 +1,83 @@
+{
+  "content": [
+    {
+      "title": "Your export from similarity_company_export is complete and has been emailed to you.",
+      "message": "Your export from similarity_company_export is complete and has been emailed to you.",
+      "type": "Export",
+      "created": "07 Sep 2020",
+      "id": "0",
+      "meta": {
+        "url": "https://ai-elephant.s3.eu-central-1.amazonaws.com/exported/95a2dbec-e770-4ae6-afb0-63b8943fa32f.xlsx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231020T114959Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86399&X-Amz-Credential=AKIA4UCCXUBXFSAEKPA5%2F20231020%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Signature=50a7c5587b8835d9ba42fc2dd190dae5faa063fdf70f9076b70ca7949c02ed39"
+      },
+      "seen": false,
+      "category": "Event"
+    },
+    {
+      "title": "Your crawl request has been done.",
+      "message": "Your crawl request has been done.",
+      "type": "CrawlRequest",
+      "created": "07 Sep 2020",
+      "id": "1",
+      "meta": {
+        "domain": "myapp"
+      },
+      "seen": false,
+      "category": "Event"
+    },
+    {
+      "title": "Your own account has been successfully modified.",
+      "message": "Your own account has been successfully modified.",
+      "type": "Account",
+      "created": "07 Sep 2020",
+      "id": "2",
+      "meta": {},
+      "seen": false,
+      "category": "Event"
+    },
+    {
+      "title": "Congratulations, your subscription is live!",
+      "message": "Congratulations, your subscription is live!",
+      "type": "Subscription",
+      "created": "07 Sep 2020",
+      "id": "3",
+      "meta": {},
+      "seen": false,
+      "category": "Event"
+    },
+    {
+      "title": "Introducing email account rotation in Campaigns",
+      "message": "Introducing email account rotation in Campaigns",
+      "type": "Update",
+      "created": "07 Sep 2020",
+      "id": "4",
+      "meta": {},
+      "seen": false,
+      "category": "Update"
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "empty": false,
+      "sorted": true,
+      "unsorted": false
+    },
+    "offset": 0,
+    "pageNumber": 0,
+    "pageSize": 20,
+    "paged": true,
+    "unpaged": false
+  },
+  "last": true,
+  "totalElements": 20,
+  "totalPages": 1,
+  "size": 20,
+  "number": 0,
+  "sort": {
+    "empty": false,
+    "sorted": true,
+    "unsorted": false
+  },
+  "first": true,
+  "numberOfElements": 20,
+  "empty": false
+}

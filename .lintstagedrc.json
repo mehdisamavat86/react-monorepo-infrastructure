@@ -1,0 +1,7 @@
+{
+  "{apps,libs,.vscode}/**/*.{js,jsx,ts,tsx,json}": [
+    "nx affected --target=lint",
+    "prettier --write",
+    "git add"
+  ]
+}

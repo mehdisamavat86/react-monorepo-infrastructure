@@ -1,0 +1,114 @@
+{
+  "Debugger": {
+    "prefix": "dd",
+    "body": ["debugger; // DEBUG remove this"]
+  },
+  "DEBUG comment": {
+    "prefix": "ddd",
+    "body": ["// DEBUG "]
+  },
+  "DEBUG comment for tsx": {
+    "prefix": "ddd",
+    "body": ["{/* DEBUG */}"]
+  },
+  "DEV comment": {
+    "prefix": "dev",
+    "body": ["// DEV ${1:remove}"]
+  },
+  "TODO comment": {
+    "prefix": "todo",
+    "body": ["// TODO ${1:remove}"]
+  },
+  "TODO comment for tsx": {
+    "prefix": "todo",
+    "body": ["{/* TODO ${1:remove} */}"]
+  },
+  "FIXME comment": {
+    "prefix": "fix",
+    "body": ["// FIXME ${1:remove}"]
+  },
+  "BUG comment": {
+    "prefix": "bug",
+    "body": ["// BUG ${1:remove}"]
+  },
+  "Note comment": {
+    "prefix": "nt",
+    "body": ["// Note ${1:message}"]
+  },
+  "Console log": {
+    "prefix": "clg",
+    "body": ["console.log(\"[$TM_FILENAME_BASE]\", $1); // DEBUG remove this"]
+  },
+  "Console info": {
+    "prefix": "cli",
+    "body": ["console.info(\"[$TM_FILENAME_BASE]\", $1); // DEBUG remove this"]
+  },
+  "Console warn": {
+    "prefix": "clw",
+    "body": ["console.warn(\"[$TM_FILENAME_BASE]\", $1); // DEBUG remove this"]
+  },
+  "Console error": {
+    "prefix": "cle",
+    "body": ["console.error(\"[$TM_FILENAME_BASE]\", $1); // DEBUG remove this"]
+  },
+  "Console table": {
+    "prefix": "clt",
+    "body": ["console.table($1); // DEBUG remove this"]
+  },
+  "Console debug": {
+    "prefix": "cld",
+    "body": ["console.debug(\"[$TM_FILENAME_BASE]\", $1); // DEBUG remove this"]
+  },
+  "Implement": {
+    "prefix": "al",
+    "body": ["alert(\"not implemented\"); // TODO implement this"]
+  },
+  "Styled component": {
+    "prefix": "stl",
+    "body": ["export const ${1:Wrapper} = styled(${2:Box})`$3`;"]
+  },
+  "Component DisplayName": {
+    "prefix": "dsp",
+    "body": ["${1:$TM_FILENAME_BASE}.displayName = \"${2:$TM_FILENAME_BASE}\";"]
+  },
+  "Export all": {
+    "prefix": "expa",
+    "body": ["export * from '${1:./}';"]
+  },
+  "extends PropsWithChildren": {
+    "prefix": "ech",
+    "body": ["extends PropsWithChildren"]
+  },
+  "Export Function": {
+    "prefix": "fa",
+    "body": ["export function ${1:funcName} ($2){\n${3:\t// TODO add code}\n}"]
+  },
+  "Import styled": {
+    "prefix": "imps",
+    "body": ["import * as Styled from './styles'"]
+  },
+  "Import sx": {
+    "prefix": "impx",
+    "body": ["import * as SX from './sx'"]
+  },
+  "Import Page": {
+    "prefix": "expp",
+    "body": ["export { default, metadata } from './$1/page'"]
+  },
+  "useNotify": {
+    "prefix": "useNotify",
+    "body": ["const notify = useNotify();"]
+  },
+  "accessing props inside styled component": {
+    "prefix": "pp",
+    "body": ["${p => p.theme.$1 }"]
+  },
+  "media query": {
+    "prefix": "mq",
+    "body": ["${(p) => p.theme.breakpoints.down(${1:'md'})} {", "$2", "}"]
+  },
+  "global accessable variable": {
+    "prefix": "gg",
+    "body": ["(window as any).${1:x} = $1; // DEBUG remove this"]
+  }
+}

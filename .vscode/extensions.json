@@ -1,0 +1,29 @@
+{
+  "recommendations": [
+    "nrwl.angular-console",
+    "esbenp.prettier-vscode",
+    "firsttris.vscode-jest-runner",
+    "dbaeumer.vscode-eslint",
+    "aaron-bond.better-comments",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "smulyono.reveal",
+    "cardinal90.multi-cursor-case-preserve",
+    "k--kato.intellij-idea-keybindings",
+    "simonsiefke.svg-preview",
+    "wmaurer.change-case",
+    "alefragnani.numbered-bookmarks",
+    "wayou.vscode-todo-highlight",
+    "gruntfuggly.todo-tree",
+    "dsznajder.es7-react-js-snippets",
+    "firsttris.vscode-jest-runner",
+    "christian-kohler.path-intellisense",
+    "styled-components.vscode-styled-components",
+    "fallenmax.styled-components-extractor",
+    "jonkwheeler.styled-components-snippets",
+    "Orta.vscode-jest",
+    "teamchilla.blueprint",
+    "mariusalchimavicius.json-to-ts",
+    "eamodio.gitlens"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "explorer.compactFolders": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "todo-tree.general.tags": ["TODO", "FIXME", "BUG", "DEV", "DEBUG", "NOTE"],
+  "todo-tree.tree.autoRefresh": true,
+  "todo-tree.filtering.excludeGlobs": [
+    "**/.vscode/**",
+    "**/.blueprint-templates/**",
+    "**/node_modules/**"
+  ],
+
+  "blueprint.templatesPath": ["./.blueprint-templates"],
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/dist": true
+  }
+}

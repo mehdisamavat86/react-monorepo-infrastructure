@@ -1,0 +1,40 @@
+version: '3.9'
+
+services:
+  ai-elephant:
+    container_name: aielephant
+    build:
+      context: ./
+      dockerfile: ./apps/elephant/DockerFile
+      args:
+        VITE_APP_NAME: AI-Elephants
+        VITE_API_URL: https://app.ai-elephants.com/api
+        VITE_FILE_DOWNLOAD_BASE_URL: https://app-dev.ai-elephants.com
+        VITE_AUTH_URL: https://sso.ai-ark.io/realms/ark/protocol/openid-connect
+        VITE_AUTH_CLIENT_ID: web
+        VITE_APP_BASE_API_PATH: elephant-management
+        VITE_AUTH_CLIENT_SECRET: ''
+        VITE_PORT: 4200
+        VITE_SOCKET_DISABLED: true
+    restart: always
+    ports:
+      - 8082:4200
+
+  ai-spider:
+    container_name: aispider
+    build:
+      context: ./
+      dockerfile: ./apps/spider/DockerFile
+      args:
+        VITE_APP_NAME: AI-Spiders
+        VITE_API_BASE_URL: https://app.ai-spiders.com/api
+        VITE_FILE_DOWNLOAD_BASE_URL: https://app-dev.ai-spiders.com
+        VITE_AUTH_URL: https://sso.ai-ark.io/realms/ark/protocol/openid-connect
+        VITE_AUTH_CLIENT_ID: web
+        VITE_APP_BASE_API_PATH: spider-management
+        VITE_AUTH_CLIENT_SECRET: ''
+        VITE_PORT: 4201
+        VITE_SOCKET_DISABLED: true
+    restart: always
+    ports:
+      - 8083:4201

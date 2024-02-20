@@ -1,0 +1,2 @@
+export const CREDIT_DANGAR_PERCENTAGE =
+  import.meta.env.VITE_CREDIT_DANGAR_PERCENTAGE ?? 80;
